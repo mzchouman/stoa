@@ -115,7 +115,9 @@ Stoa is released under [Creative Commons Attribution-ShareAlike 4.0 Internationa
 
 If you use Stoa in your research programme and wish to cite it, the recommended citation form is:
 
-> Chouman, Mohamad-Zouheir. (2026). *Stoa: An operating model for multi-paper scholarly research programmes* (Version 0.1.0) [Software and documentation]. https://github.com/mzchouman/stoa
+> Chouman, M.-Z. (2026). *Stoa: An operating model for multi-paper scholarly research programmes* (Version 0.1.1) [Methodological framework]. https://github.com/mzchouman/stoa
+
+The bracketed descriptor `[Methodological framework]` follows APA 7 §10.10's provision for an author-supplied descriptor where no prescribed descriptor (`[Computer software]`, `[Mobile app]`, `[Data set]`) precisely fits the form of the work. Stoa is a Markdown corpus of templates, workflow protocols, and a persona skill — a methodological framework rather than executable software in a strict sense — and the descriptor reflects that classification, positioning the citation alongside other published methodological frameworks (CONSORT, STROBE, PRISMA, and the Design Science Research framework of Peffers, Tuunanen, Rothenberger, & Chatterjee, 2007).
 
 A more substantive methodological paper describing the framework, its design rationale, and its evaluation evidence is in preparation and will target a Q1-tier methodological venue. When that paper is published, the citation form will update accordingly.
 
@@ -125,4 +127,4 @@ Questions, adaptation reports, and pull requests are welcome through the reposit
 
 ---
 
-*Document version: 0.1.0. Verification of citations referenced in design-rationale documents is recommended before any external publication of derivative work.*
+*Document version: 0.1.1. Verification of citations referenced in design-rationale documents is recommended before any external publication of derivative work.*

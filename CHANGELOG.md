@@ -2,6 +2,24 @@
 
 All notable changes to Stoa are documented in this file. The format follows the conventions of *Keep a Changelog* and adheres to semantic versioning where applicable. Versions describe the framework artefacts and documentation, not the consuming project.
 
+## [0.1.1] — 2026-05-07 — Citation-descriptor correction
+
+### Changed
+
+- Recommended-citation bracket descriptor changed from `[Software and documentation]` to `[Methodological framework]`. The change reflects a more accurate APA 7 §10.10 classification of the work: Stoa is a Markdown corpus of templates, workflow protocols, and a persona skill — a methodological framework rather than executable software in the strict sense. The new descriptor is an author-supplied APA 7 descriptor (the standard, prescribed forms `[Computer software]`, `[Mobile app]`, `[Data set]` did not precisely fit the form of the work) and positions the citation alongside other published methodological frameworks (CONSORT, STROBE, PRISMA, the Design Science Research framework of Peffers, Tuunanen, Rothenberger, & Chatterjee, 2007).
+- Author surname-first short form `Chouman, M.-Z.` adopted in the recommended-citation block as the canonical APA 7 author-element form (the prior `Chouman, Mohamad-Zouheir.` form, with full given names spelled out, is also valid; the short form is preferred for citation strings and the long form is preserved in the LICENSE attribution clause and in the PROVENANCE document).
+
+### Surfaces touched
+
+- `README.md` recommended-citation block, with an explanatory note on the descriptor selection.
+- `README.md` document-version footer.
+- `CHANGELOG.md` (this entry).
+
+### Notes for adopters
+
+- No structural change to any template, protocol, or persona skill. Adopters who installed Stoa under v0.1.0 are not required to take any action; the descriptor change is metadata-only.
+- A future v0.1.2 will back-propagate the Zenodo DOI (once minted via the GitHub-Zenodo integration) into the recommended-citation block, replacing the GitHub URL with the DOI URL while retaining the canonical-source note.
+
 ## [0.1.0] — 2026-05-07 — Initial public release (working draft)
 
 ### Added
